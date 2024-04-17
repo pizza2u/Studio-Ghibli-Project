@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+body{
+    background: linear-gradient(#FFE4E1,#ff7d83);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    padding: .5rem 1rem;
+    background: #c3f8ff;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #ff7d83;
+}
+.text-input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 208, 208);
+    outline: none;
+    line-height: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.titulo{
+    margin-left: 20px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.titulo h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 90px ;
+}
+
+#menu ul{
+    margin-left: 100px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    background-color: #ff7d83;
+}
+#menu ul li{
+    display: inline-block;
+    justify-content: flex-end;
+}
+#menu ul li a{
+    padding: 34px;
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    transition: background .5s;
+}
+#menu ul li a:hover{
+    background-color: #c3f8ff;
+}
+
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.content{
+    width: 95%;
+    margin: 30px auto 30px;
+    border: 1px;
+}
+
+.content .main-content{
+    width: 70%;
+    float: left;
+    border: 1px;
+}
+.content .main-content .post {
+    width: 95%;
+    height: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white;
+}
+.content .main-content .post .post-image{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.content .sidebar{
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.content .sidebar .section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content .sidebar .section-title{
+    margin: 8px 0px 0px 0px;
+
+}
+.content .sidebar .section .search{
+    margin-top: 80px;
+
+}
+.content .sidebar .section.topics ul{
+    margin: 0px;
+    padding: 2px;
+    list-style: none;
+}
+.content .sidebar .section.topics ul li a{
+    display: block;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid rgb(218, 212, 212);
+}
+
+.content .sidebar .section.topics ul li a:hover{
+    padding-left: 20px;
+    transition: all 0.3s;
+}
+
+p{
+    text-align: justify;
+    color: #000000;
+}
+
+.content .main-content .post .postpreview{
+    width: 60%;
+    padding: 10px;
+    float: right;
+}
+
+h2{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
