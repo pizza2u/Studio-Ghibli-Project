@@ -225,3 +225,14 @@ th, td {
 th {
     background-color: #acdefd;
 }
+
+div.links {
+    height: 10em;
+    position: relative }
+div.links p {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
