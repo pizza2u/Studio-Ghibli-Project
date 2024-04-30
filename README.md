@@ -6,6 +6,9 @@ Projeto desenvolvido para Curso de Introdução a Linguagem de Marcação e Scri
 
 Você pode acessar o site projetado clicando em [Site Studio Ghibli](https://pizza2u.github.io/Studio-Ghibli-Project/)
 
+
+
+
 ### Review do Site
 <img src="https://github.com/pizza2u/Studio-Ghibli-Project/blob/main/202404300906.gif" align="center" width="800">
 
