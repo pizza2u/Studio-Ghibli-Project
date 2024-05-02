@@ -12,3 +12,12 @@ Você pode acessar o site projetado clicando em [Site Studio Ghibli](https://piz
 ### Review do Site
 <img src="https://github.com/pizza2u/Studio-Ghibli-Project/blob/main/202404300906.gif" align="left" width="800">
 
+
+
+### Ferramentas utilizadas
+
+> VSCode
+> HTML5
+> CSS
+> JavaScript
+> Extensão Go Live
