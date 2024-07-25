@@ -25,3 +25,5 @@ Você pode acessar o site projetado clicando em [Site Studio Ghibli](https://piz
 > JavaScript
 
 > Extensão Go Live
+
+> Github Pages
